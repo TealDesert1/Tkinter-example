@@ -13,8 +13,7 @@ img = ImageTk.PhotoImage(Image.open("gfg.jpeg"))
 panel = tkinter.Label(root, image = img) 
 
 # setting the application 
-panel.pack(side = "bottom", fill = "both", 
-		expand = "yes") 
+panel.pack(side = "bottom", fill = "both", expand = "yes") 
 
 # running the application 
 root.mainloop() 
